@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Form Validation</title>
+
+   <style>
+input[type=text], select {
+  width: 90%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 50%;
+  background-color: #333333;
+  color: white;
+  padding: 10px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+ 
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+} 
+</style>
+
+</head>
+<body>
+
+<h1>Register Your Business</h1>
+<p><h3>Please provide all required details to register your business with us</p>
+
+<div>
+  <form>
+    <label
+     for="username">Business Owner *</label>
+      <p><input type="text"id="fname"name="firstname"placeholder="Your first name.."
+    name="firstname" required><br>
+      <p><input type="text"id="lname"name="lastname"placeholder="Your last name.."
+    name="lastname" required><br>
+      <p><label>Business Name *</p><input type="text"
+    name="Business Name" required> </label><br>
+      <p><label>Contact Number *</label></p>
+    <input type="text"placeholder="(000)000-0000"
+    name="Contact Number"required maxlength="10"><br>
+      <p><label>E-mail *</label></p><input type="text"placeholder="ex:myname@example.com"
+    name="E-mail"required><br>
+      <p><label>Address *</p></label><input type="text"placeholder="Street Address.."
+    name="Address"required><br>
+     </p></label><input type="text"placeholder="Street Address Line 2.."
+    name="Street Address Line 2"required><br>
+     </p></label><input type="text"placeholder="City.."
+    name="City"required><br>
+     </p></label><input type="text"placeholder="State/Province.."
+    name="State/Province"required><br>
+     </p></label><input type="text"placeholder="Postal/Zip Code.."
+    name="Postal/Zip Code"required><br>
+     <p><label>Type of Business *</label
+    name="Type of Business"required></p><br>
+
+ <select>
+  <option>Please Select</option>
+  <option>Shop/Cafe</option>
+  <option>Lending</option>
+  <option>Store</option>
+  <option>Rentals</option>
+  <option>Others,please specify below.</option>
+
+ </select>
+    
+    <p><label>Message</p></label
+    name="Type of Business"required><br>
+    <textarea rows="7" cols="35"> </textarea>
+ 
+    <p><left><input type="submit" value="Submit Registration"></left></p> 
+     </form> 
+
+   </p></form></div></h3></p>
+
+ </body>
+</html
